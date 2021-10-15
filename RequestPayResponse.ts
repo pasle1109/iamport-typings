@@ -22,8 +22,8 @@ export interface RequestPayResponse extends RequestPayAdditionalResponse {
   buyer_email?: string;
   buyer_tel?: string;
   buyer_addr?: string;
-  paid_at: number
-  currency: string
+  paid_at?: number
+  currency?: string
 }
 
 export type RequestPayResponseCallback = (response: RequestPayResponse) => void;
