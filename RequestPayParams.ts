@@ -29,4 +29,5 @@ export interface RequestPayParams extends RequestPayAdditionalParams {
   buyer_postcode?: string;
   notice_url?: string | string[];
   display?: Display;
+  confirm_url?: string;
 }
